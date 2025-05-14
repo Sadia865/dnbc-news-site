@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact-Us</title>
+    <meta name="description" content="Contact DNBC News for inquiries about travel, trending topics, and more.">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="main.css">
+    
+</head>
+<body>
+<div id="navbar"></div>
+    
+ 
+    <section class="contact3" style="margin-top: 0;">
+        <div class="content3">
+            <h2>Contact Us</h2>
+            <p>DNBC News<br>
+                25 Fleet Street,<br>
+                London, EC4Y 1AA,<br>
+                United Kingdom
+            </p>
+            <div class="container2">
+                <!-- Contact Information -->
+                <div class="contact-info">
+                    <div class="box1">
+                        <div class="icon">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Address</h3>
+                            <p>DNBC News<br>
+                                673 News Street,<br>
+                                Westminster, London,<br>
+                                SW1A 1AA,<br>
+                                United Kingdom
+                            </p>
+                        </div>
+                    </div>
+                    <div class="box1">
+                        <div class="icon">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Phone</h3>
+                            <p>+44 20 7946 0958</p>
+                        </div>
+                    </div>
+                    <div class="box1">
+                        <div class="icon">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Email</h3>
+                            <p>contact@dnbcnews.com</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Contact Form -->
+                <div class="contact-form">
+                    <form onsubmit="return validateForm()">
+                        <h2>Send Message</h2>
+                        <div class="input-box">
+                            <input type="text" id="name" name="name" required>
+                            <span>Full Name</span>
+                        </div>
+                        <div class="input-box">
+                            <input type="email" id="email" name="email" required>
+                            <span>Email</span>
+                        </div>
+                        <div class="input-box">
+                            <textarea id="message" name="message" required></textarea>
+                            <span>Type your Message...</span>
+                        </div>
+                        <div class="input-box">
+                            <input type="submit" value="Send">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!-- Embedded Map -->
+            <div class="map">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23814.89745329918!2d-0.1356384!3d51.5073509!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761b50cced8887%3A0x8e8d23049b21e5a6!2sLondon!5e0!3m2!1sen!2suk!4v1684368920484!5m2!1sen!2suk" 
+                    width="100%" 
+                    height="400" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </section>
+    
+
+      
+    <div id="footer"></div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>

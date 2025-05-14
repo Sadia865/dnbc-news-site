@@ -1,0 +1,200 @@
+/* Footer Styles */
+footer {
+    background-color: black; /* Dark background for the footer */
+    color: #fff; /* White text color */
+    padding: 40px 0;
+    font-family: Arial, sans-serif;
+}
+
+footer .btn-1 {
+    padding: 12px 30px;
+    margin-bottom: 20px;
+    margin-left:30px ;
+    font-size: 16px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+footer .btn-1:hover {
+    background-color: black;
+    color: white;
+}
+
+/* Footer Panels */
+.foot-panel1, .foot-panel3 {
+    display: none; /* Empty panels */
+}
+
+.foot-panel2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+/* Footer Link Sections */
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul p {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    margin-bottom: 5px;
+    display: block;
+}
+
+footer ul li a:hover {
+    color: #ff4500;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+}
+
+/* Footer Legal and Copyright */
+.foot-panel4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-top: 1px solid #fff; /* Add top border */
+    border-bottom: 1px solid #fff; /* Add bottom border */
+    padding-top: 10px; /* Adjust spacing to avoid overlap with border */
+    padding-bottom: 10px; /* Adjust spacing to avoid overlap with border */
+}
+
+.foot-panel4 .pages a {
+    color: #fff;
+    font-size: 0.9rem;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.foot-panel4 .pages a:hover {
+    color: #ff4500;
+}
+
+
+footer .copyright {
+    font-size: 0.9rem;
+    color: #ccc;
+    
+}
+
+
+/* Social Media Icons */
+.social-icons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 18px;
+    padding-right: 30px;
+    border-top: 1px solid #fff; /* Add top border */
+    border-bottom: 1px solid #fff; /* Add bottom border */
+    padding-top: 10px; /* Adjust spacing to avoid overlap with border */
+    padding-bottom: 10px; /* Adjust spacing to avoid overlap with border */
+}
+
+.Follow a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+.social-icons i {
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.social-icons i:hover {
+    color: #ff4500;
+}
+
+/* Footer Content Links */
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.links ul {
+    flex: 1 1 20%;
+    padding: 10px;
+}
+
+.links ul h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+/* Footer Bottom */
+.copyright2 {
+    background-color: #242222;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.8rem;
+    color: #d4c5c5;
+}
+/* Responsive layout */
+@media (max-width: 768px) {
+    section .news {
+        grid-template-columns: 1fr; /* Single column on smaller screens */
+    }
+}
+/* Responsiveness */
+@media (max-width: 768px) {
+    .foot-panel2 {
+        flex-direction: row;
+        row-gap: 30px;
+        column-gap: 30px;
+    }
+    
+    .links {
+        flex-direction: column;
+    }
+    
+    .links ul {
+        flex: 1 1 100%;
+        margin-bottom: 20px;
+    }
+    
+    .social-icons {
+        justify-content: center;
+    }
+    
+    .copyright2 {
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 45%; /* Cards take up 45% of the container width on medium screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .card {
+        width: 100%; /* Cards take full width on smaller screens */
+    }
+}

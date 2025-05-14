@@ -1,0 +1,201 @@
+
+
+.contact3 {
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 20px;
+    background:url('/IMAGES-2/contact.jpg') no-repeat center center/cover;
+}
+.contact3 .content3 {
+    
+    text-align: center;
+    color: #fff;
+}
+
+.contact3 h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.contact3 p {
+    font-weight: 300;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.contact-info, .contact-form {
+    flex: 1 1 300px;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.contact-info .box1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.contact-info .icon {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background:black;
+    color: #fff;
+    margin-right: 15px;
+    font-size: 20px;
+}
+
+.contact-info .text h3 {
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: #333;
+}
+
+.contact-info .text p {
+    margin: 0;
+    font-size: 14px;
+    color: #555;
+}
+
+.contact-form h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contact-form .input-box {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.contact-form .input-box input, 
+.contact-form .input-box textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    resize: none;
+}
+
+.contact-form .input-box span {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    transition: 0.3s;
+    font-size: 16px;
+    color: #888;
+}
+
+ .contact-form .input-box input:focus + span,
+.contact-form .input-box textarea:focus + span,
+.contact-form .input-box input:valid + span,
+.contact-form .input-box textarea:valid + span {
+    top: -15px;
+    left: 10px;
+    font-size: 12px;
+    color: black;
+} 
+
+.contact-form .input-box input[type="submit"] {
+    background:black;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.contact-form .input-box input[type="submit"]:hover {
+    background:black;
+}
+
+
+.hamburger {
+    padding: 10px;
+}
+.contact3 {
+    position: relative;
+    margin-top: 50px;
+    min-height: 100vh;
+    padding: 50px 20px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    ('/IMAGES-2/pexels-489957918-29821041.jpg') no-repeat center center/cover;
+}
+/* .custom-dropdown-bg {
+    background-color: var(--white--color) ;
+} */
+
+/* .dropdown-item {
+    color: #333;
+}
+
+ .dropdown-item:hover {
+    background-color: var(--black--color)!important;
+    color: var(--white--color)!important;
+}
+
+
+.nav-link:hover,
+.nav-link.active {
+    color: var(--white--color);
+    border-bottom: 2px solid var(--white--color);
+} */
+
+/* input:invalid {
+    border-color: red;
+}
+input:valid {
+    border-color: green;
+} 
+
+.contact-form .input-box span {
+    transform: translate(0, 0);
+} */
+
+.contact-form .input-box input:focus + span,
+.contact-form .input-box textarea:focus + span,
+.contact-form .input-box input:valid + span,
+.contact-form .input-box textarea:valid + span {
+    transform: translate(0, -20px);
+    font-size: 12px;
+    color: blackw;
+}
+
+.map {
+    margin-top: 30px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+a:focus,
+button:focus {
+    outline: 2px solid black;
+    outline-offset: 4px;
+}
+
+/* Responsive Design */
+ @media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        gap: 20px;
+    }
+} 

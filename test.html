@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar UI</title>
+    <link href="https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
+    <style>
+        :root {
+            --red-color: #880808;
+            --black-color: #000000;
+            --white-color: #F5F5F5;
+            --gray-color: #555;
+            --blue-color: #021526;
+            --sapphire-blue: #0F52BA;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        /* .bg {
+            background-color: rgba(0, 0, 0, 0.4);
+            width: 100%;
+        } */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: var(--red-color);
+            padding: 0 1rem;
+            height: 60px;
+        }
+
+        .navbar-brand {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: var(--white-color);
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .navbar-brand i {
+            font-size: 24px;
+            margin-right: 8px;
+            color: var(--black-color);
+        }
+
+        .navbar-brand .custom-dn {
+            color: var(--sapphire-blue);
+            font-weight: 700;
+        }
+
+        .navbar-brand .custom-bc {
+            color: var(--red-color);
+            font-weight: 700;
+        }
+
+        .navbar-nav {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+        }
+
+        .nav-item {
+            list-style: none;
+        }
+
+        .nav-link {
+            text-decoration: none;
+            color: var(--white-color);
+            font-size: 16px;
+            padding: 10px;
+            transition: color 0.3s, border-bottom 0.3s;
+        }
+
+        .nav-link:hover,
+        .nav-link.active {
+            color: var(--white-color);
+            border-bottom: 2px solid var(--white-color);
+        }
+
+        .dropdown {
+            position: relative;
+        }
+
+        .dropdown-menu {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: var(--white-color);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            border-radius: 4px;
+            overflow: hidden;
+            z-index: 10;
+        }
+
+        .dropdown:hover .dropdown-menu {
+            display: block;
+        }
+
+        .dropdown-item {
+            padding: 10px 15px;
+            color: #333;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-item:hover {
+            background-color: var(--black-color);
+            color: var(--white-color);
+        }
+
+        .signin {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 15px;
+            font-weight: 700;
+            color: var(--white-color);
+        }
+
+        .signin i {
+            font-size: 20px;
+            color: var(--black-color);
+        }
+
+        @media (max-width: 768px) {
+            .navbar-nav {
+                flex-direction: column;
+                gap: 0.5rem;
+            }
+
+            .dropdown-menu {
+                position: static;
+                box-shadow: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    " style="background-color: rgba(19, 7, 7, 0.4); backdrop-filter: blur(-0.5); width: 100%;  border-right: red !important; 
+">
+
+        <a class="navbar-brand" href="#todayinworld.html">
+            <i class="bx bx-globe"></i>
+            <span><span class="custom-dn">DN</span><span class="custom-bc">BC</span></span>
+        </a>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="todayinworld.html">TODAY IN WORLD</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link" href="#">TOP CITIES NEWS</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="newyork.html">New York</a></li>
+                    <li><a class="dropdown-item" href="london.html">London</a></li>
+                    <li><a class="dropdown-item" href="tokyo.html">Tokyo</a></li>
+                    <li><a class="dropdown-item" href="seoul.html">Seoul</a></li>
+                    <li><a class="dropdown-item" href="capetown.html">Cape Town</a></li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="AboutUs.html">ABOUT US</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contactus.html">CONTACT US</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Sports.html">SPORTS</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="bussiness.html">BUSINESS</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">TRAVEL</a>
+            </li>
+        </ul>
+        <div class="signin">
+            <i class="bx bx-log-in"></i>
+            <span>SIGN IN</span>
+        </div>
+    
+    </nav>
+</div>
+</body>
+</html>
